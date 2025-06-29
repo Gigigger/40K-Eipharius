@@ -225,7 +225,7 @@ SUBSYSTEM_DEF(jobs)
 				switch(age)
 					if(18 to (18+10))
 						weightedCandidates[V] = 3 // Still a bit young.
-					if((18+10) to (30-10))
+					if((18+5) to (30-5))
 						weightedCandidates[V] = 6 // Better.
 					if((30-10) to (30+10))
 						weightedCandidates[V] = 10 // Great.
