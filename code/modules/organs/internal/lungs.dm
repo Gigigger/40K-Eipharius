@@ -291,11 +291,11 @@
 		else if(breath.temperature >= species.heat_level_1)
 			if(prob(20))
 				to_chat(owner, "<span class='danger'>You feel your face burning and a searing heat in your lungs!</span>")
-
+//TEMPORARY FIX to get the server running, fix it properly later
 			switch(breath.temperature)
-				if(species.heat_level_1 to species.heat_level_2)
+				if(0 to 500)
 					damage = HEAT_GAS_DAMAGE_LEVEL_1
-				if(species.heat_level_2 to species.heat_level_3)
+				if(501 to 999)
 					damage = HEAT_GAS_DAMAGE_LEVEL_2
 				else
 					damage = HEAT_GAS_DAMAGE_LEVEL_3
