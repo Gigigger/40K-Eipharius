@@ -167,13 +167,13 @@ Mercenary System
 			visible_message("You wake up after a long flight to find yourself in Imperial space.")
 			src.verbs -= list(/mob/living/carbon/human/proc/mercenaryclass)
 			qdel(src)
-		/*if("Eldar Corsair")
+		if("Eldar Corsair")
 			var/mob/living/carbon/human/eldar/corsair/new_character = new(usr.loc) // da mob
 			new_character.key = usr.key //puts ghost in body with new key
 			visible_message("You wake up after a long flight to find yourself in Imperial space.")
 			src.verbs -= list(/mob/living/carbon/human/proc/mercenaryclass)
 			qdel(src)
-*/
+
 // OLD UNDER HERE!//
 
 /*
