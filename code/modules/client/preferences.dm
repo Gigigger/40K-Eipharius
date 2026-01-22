@@ -52,7 +52,7 @@ datum/preferences
 		save_character()
 
 /datum/preferences/proc/ShowChoices(mob/user)
-	var/dat = "<html><head><title>Warhammer Explorer!</title>"
+	var/dat = "<HTML><meta charset='UTF-8'><HEAD><TITLE>Warhammer Explorer!</title>"
 	dat += "<style type='text/css'>html {overflow: auto;};"
 	dat += "body {"
 	dat += "overflow:hidden;"

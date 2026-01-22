@@ -140,7 +140,7 @@
 		return
 
 	var/HTML = list()
-	HTML += "<html><head><title>[src.name]</title></head><body>"
+	HTML += "<HTML><meta charset='UTF-8'><HEAD><TITLE>[src.name]</title></head><body>"
 	HTML += "<div align='center'>"
 	HTML += "<table border='1' style='undefined;table-layout: fixed; width: 424px'>"
 
