@@ -204,7 +204,7 @@ proc/get_radio_key_from_channel(var/channel)
 
 	var/prefix = copytext_char(message,1,2)
 	if(prefix == get_prefix_key(/decl/prefix/custom_emote))
-		return emote(copytext_cahr(message,2))
+		return emote(copytext_char(message,2))
 	if(prefix == get_prefix_key(/decl/prefix/visible_emote))
 		return custom_emote(1, copytext_char(message,2))
 
